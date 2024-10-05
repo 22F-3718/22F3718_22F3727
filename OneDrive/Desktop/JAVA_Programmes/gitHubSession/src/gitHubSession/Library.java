@@ -16,13 +16,13 @@ public class Library {
 	
 	public void listBooks()
 	{
-		System.out.println("\nBooks in Library"+books );
+		System.out.println("\nBooks in Library"+books);
 	}
 	
 	
-	public static void main(String[] args) 
+	public boolean searchBooks(String bookName)
 	{
-		
+		return books.contains(bookName);
 	}
 
 }
